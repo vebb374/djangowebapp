@@ -7,7 +7,8 @@ the application is built using django css html js bootstrap and sql <br>
 the documents rar file contains all the files related to the project and screen capture contains <br>
 sample video of the working project<br>
 
-external depedecies are pillow and crispy forms<br>
+execute the command before opening <br>
+pip install -r requirements.txt <br>
 
 to start the server open cmd in the btech folder and run the command python manage.py runserver<br>
 
