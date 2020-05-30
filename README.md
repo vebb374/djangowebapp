@@ -1,20 +1,20 @@
 # djangowebapp
 
 
-Btech registration
+Btech registration<br>
 
-the application is built using django css html js bootstrap and sql
-the documents rar file contains all the files related to the project and screen capture contains 
-sample video of the working project
+the application is built using django css html js bootstrap and sql <br>
+the documents rar file contains all the files related to the project and screen capture contains <br>
+sample video of the working project<br>
 
-external depedecies are pillow and crispy forms
+external depedecies are pillow and crispy forms<br>
 
-to start the server open cmd in the btech folder and run the command python manage.py runserver
+to start the server open cmd in the btech folder and run the command python manage.py runserver<br>
 
-about project:
--we need to create a user account to create a profile 
--then login using the credentials 
--update your profile so that the admin can see it
--admin can see all the profiles and users from its panel 
--admin has capability of changing the profile data
--all the files uploaded by the users are stored in media folder(certificates,profile pictures)
+about project:<br>
+-we need to create a user account to create a profile <br>
+-then login using the credentials <br>
+-update your profile so that the admin can see it<br>
+-admin can see all the profiles and users from its panel <br>
+-admin has capability of changing the profile data<br>
+-all the files uploaded by the users are stored in media folder(certificates,profile pictures)<br>
