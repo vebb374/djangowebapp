@@ -1,4 +1,5 @@
 from django.contrib.auth.models import User
+
 from django import forms
 from django.contrib.auth.forms import UserCreationForm
 from .models import profile
@@ -28,7 +29,7 @@ class UserUpdateForm(forms.ModelForm):
 
 class ProfileUpdateForm(forms.ModelForm):
     
-        DOB = forms.DateField(input_formats=settings.DATE_INPUT_FORMATS,label='Date of Birth',widget = forms.SelectDateWidget())    
+        DOB = forms.DateField(label='Date of Birth',widget = forms.SelectDateWidget(years=[1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009]))    
         class Meta:
             model =profile
             fields =[
@@ -39,6 +40,7 @@ class ProfileUpdateForm(forms.ModelForm):
             'tenthcertificate','intercertificate','jeerankcertificate'
                     ]
             widgets = {
-                'DOB': DateInput(),
+                'DOB': forms.DateInput(attrs={'class':'datepicker'}),
+                
                 }
 

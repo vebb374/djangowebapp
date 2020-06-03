@@ -33,6 +33,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'blog.apps.BlogConfig',
     'users.apps.UsersConfig',
+    'bootstrap_datepicker_plus',
     'phonenumber_field',
     'crispy_forms',
     'django.contrib.admin',
@@ -126,7 +127,10 @@ MEDIA_ROOT=os.path.join(BASE_DIR,'media')
 MEDIA_URL='/media/'
 
 CRISPY_TEMPLATE_PACK='bootstrap4'
+BOOTSTRAP4 = {
+    'include_jquery': True,
+}
 LOGIN_REDIRECT_URL='blog-home'
 LOGIN_URL ='login'
-DATE_INPUT_FORMATS = ["%d-%m-%Y"]
+
 
